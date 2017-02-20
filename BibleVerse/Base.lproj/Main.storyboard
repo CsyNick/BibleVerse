@@ -1,26 +1,1951 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hc9-yv-caN">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--聖經故事-->
+        <scene sceneID="Bvt-em-IXi">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Zg8-XH-hzC" customClass="PageVC" customModule="BibleVerse" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="聖經故事" id="ri0-2d-Acc"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Zq-F2-dRQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2016" y="147"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="7WV-Tf-d1S">
+            <objects>
+                <viewController restorationIdentifier="FirstVC" storyboardIdentifier="FirstVC" id="PON-Yf-xvJ" customClass="ContentViewController" customModule="BibleVerse" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="cTX-h4-v9t"/>
+                        <viewControllerLayoutGuide type="bottom" id="cBg-A2-FD1"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" id="VUc-4j-5Fj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第1課: 上帝開始創造萬物" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwY-Nu-BvJ">
+                                <rect key="frame" x="20" y="75" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dHb-rI-GU3">
+                                <rect key="frame" x="0.0" y="104" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">我們享有的一切美物都是來自上帝。他造了太陽，供給我們日光；也造了月亮和星星，使我們晚上有點光。上帝造地球給我們居住。
+
+但太陽、月亮、星星和地球並不是上帝最先創造的東西。你知道上帝最先造的是甚麼嗎？上帝首先創造了一些好像自己的生物。我們看不見這些生物，就像我們看不見上帝一樣。在聖經裏，這些生物稱為天使。上帝創造了天使，讓他們跟他一起生活在天上。
+
+上帝造的第一個天使非常特別。他是上帝的長子，跟天父一起工作。他幫助上帝創造其他東西。他幫助上帝創造太陽、月亮、星星和我們的地球。
+
+當時地球是甚麼樣子的？起初沒有人能夠生活在地球上。除了有一片大海覆蓋着陸地之外，就沒有其他東西了。但上帝很想有人生活在地上。於是他為我們準備各樣東西。他做了些甚麼事呢？
+
+首先，地球需要有光。因此上帝使太陽的光照到地上來，並且使地球有晝夜的分別。後來上帝使陸地從海水裏露出來。
+
+起初，陸地上甚麼也沒有。陸地的樣子就像你在這幅圖畫裏所見的一樣。地上沒有花草樹木，也沒有飛禽走獸，甚至海洋裏也沒有魚。所以，上帝還有許多工作要做，才能使地球成為適合動物和人類居住的好地方。
+
+耶利米書10:12；歌羅西書1:15-17；創世記1:1-10。
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HdI-wT-boG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="-542.11956521739137"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Snq-aF-4sY">
+            <objects>
+                <viewController restorationIdentifier="SecondVC" storyboardIdentifier="SecondVC" id="QiQ-m2-Cfc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jpA-E0-CxJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZO8-ip-0zc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SxD-Yp-1Iu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wD9-cV-wtl">
+                                <rect key="frame" x="0.0" y="104" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">看看地上的情形！每一件東西都多麼美麗！看看各種花草樹木和蟲魚鳥獸。你認得出大象和獅子來嗎？
+
+伊甸園裏的動物
+這個美麗的園子是怎麼來的？現在，讓我們看看上帝怎樣把一切預備妥當，使地球適合我們居住。
+
+首先，上帝創造青草去覆蓋大地。他也造出各種細小的植物、灌木叢和大樹。這些東西在地上生長，令地球變得十分美麗。不但這樣，許多植物更供給我們美味可口的食物。
+
+後來，上帝造魚在水裏游，造鳥在空中飛。他造了貓、狗和馬，各種大大小小的動物。你家附近有甚麼動物？上帝為我們造這些東西，難道我們不應該高興嗎？
+
+最後，上帝把地球的一部分造成一個非常特別的地方。他把這個地方稱為伊甸園。這個地方是十全十美的。園裏每一件東西都非常美麗。上帝要使整個地球都變成好像他所造的這個美麗園子一樣。
+
+可是，請你再看看這幅圖畫裏的園子。你知道上帝發覺園子缺少了甚麼嗎？讓我們看看。
+
+創世記1:11-25；2:8,9。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第2課: 一個美麗的園子" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oY4-ze-7xA">
+                                <rect key="frame" x="20" y="75" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMI-f8-p5V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1045" y="-542"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MPw-jG-Yak">
+            <objects>
+                <viewController restorationIdentifier="ThirdVC" storyboardIdentifier="ThirdVC" id="SX2-xV-xd4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9nF-bc-4bd"/>
+                        <viewControllerLayoutGuide type="bottom" id="o61-WB-xUC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IQm-hc-2AI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="r2c-r8-IWJ">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">這幅圖畫跟上一幅有甚麼不同的地方？不錯，這幅圖畫裏有人。他們是第一對男女。是誰造他們的？是上帝。你知道上帝的名字嗎？他的名字叫耶和華。他所造的男女叫做亞當和夏娃。
+
+亞當和夏娃在伊甸園裏
+耶和華上帝造亞當的方法是這樣的。上帝從地上取些塵土，用塵土造出一個完美男人的身體。然後，上帝把氣息吹進這個人的鼻孔，亞當就活過來了。
+
+耶和華上帝派亞當做一件工作。他吩咐亞當為各種動物起名。亞當可能花了很長時間去觀察各種動物，才能為所有動物起個最適當的名字。亞當為動物起名時發覺一件事。你知道是甚麼事嗎？
+
+各種動物都有伴侶。園子裏有大象爸爸，也有大象媽媽；有獅子爸爸，也有獅子媽媽。但亞當卻沒有伴侶。於是耶和華使亞當沉睡了，然後從他的肋旁取出一根肋骨來。耶和華用這根肋骨為亞當造了一個女人，成為亞當的妻子。
+
+現在亞當多麼快樂！想想夏娃，她也必定多麼快樂！因為她能夠在一個美麗的園子裏生活。現在他們可以生兒育女，快樂地一起生活。
+
+耶和華想亞當和夏娃永遠活下去。上帝希望他們使整個地球變得像伊甸園一樣美麗。亞當夏娃想到他們要做這件事，必定滿心喜樂！你想跟他們一起，使地球變成一個美麗的園子嗎？可是，亞當和夏娃的快樂並沒有維持得很久。讓我們看看為甚麼。
+
+詩篇83:18；創世記1:26-31；2:7-25。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第3課: 第一對男女" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0n-66-JmE">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q2Z-9P-AYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1842" y="-542"/>
+        </scene>
+        <!--經典收錄-->
+        <scene sceneID="UvO-6i-q5M">
+            <objects>
+                <tableViewController id="kC8-uU-PcA" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="131" sectionHeaderHeight="28" sectionFooterHeight="28" id="IMj-lz-dJF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="5t9-z3-DCh">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="CgY-JS-v6U">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CgY-JS-v6U" id="39n-bk-QMh">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eLR-IX-4M2">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfa-pB-ctO">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="勸勉" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="6vc-D0-iK8" kind="push" id="Tdq-ev-fz3"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ckO-6G-FuM">
+                                                    <rect key="frame" x="254" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="虛假" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="p6a-4j-EZj" kind="push" id="TGk-Jl-JIj"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="zea-5U-IeO">
+                                        <rect key="frame" x="0.0" y="131" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zea-5U-IeO" id="uHW-Fq-Oyt">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eMX-oU-tdh">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytR-A2-reu">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="高傲" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="rdA-8J-kF5" kind="push" id="hiB-00-6gO"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXt-z4-Rq7">
+                                                    <rect key="frame" x="254" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <state key="normal" title="神的愛" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="jND-r2-aQZ" kind="push" id="i2N-Ol-n63"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="17A-II-Fr3">
+                                        <rect key="frame" x="0.0" y="262" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="17A-II-Fr3" id="bXi-vI-0hN">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xbo-ue-XDf">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-Yx-Lu3">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="宣告" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="RGf-p3-IZA" kind="push" id="buo-PX-otE"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1v-Ou-Kor">
+                                                    <rect key="frame" x="254" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="妒忌" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="yjL-1Z-mKE" kind="push" id="AeB-TJ-y3I"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="aom-YL-Q8i">
+                                        <rect key="frame" x="0.0" y="393" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aom-YL-Q8i" id="yRw-DJ-gAk">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Re-G1-TZL">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9e-Cb-XIO">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="懶惰" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="yxV-P9-ixP" kind="push" id="yq2-cb-TFm"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="680-3r-wAJ">
+                                                    <rect key="frame" x="254" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="憎恨" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="WeI-8b-1zb" kind="push" id="QGl-D4-Wh9"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="Dpt-L3-tpn">
+                                        <rect key="frame" x="0.0" y="524" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dpt-L3-tpn" id="aiF-3O-fHu">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pz9-fp-GuU">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPl-YY-USh">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="愛慾" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="dYi-AM-AEC" kind="push" id="fBL-zb-M4O"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqg-xT-E5y">
+                                                    <rect key="frame" x="254" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="自卑" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="b92-sd-IAf" kind="push" id="wK3-QY-67m"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="X4K-tW-Jbz">
+                                        <rect key="frame" x="0.0" y="655" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X4K-tW-Jbz" id="XKa-Un-ukC">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K14-jq-AVl">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1P-PF-JHE">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="懼怕" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="l7i-1C-jLo" kind="push" id="yLI-lU-sR6"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FRh-My-Ecn">
+                                                    <rect key="frame" x="254" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="憂慮" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="3W2-Bn-53U" kind="push" id="MY4-Q4-4mz"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="SeK-kW-Fdp">
+                                        <rect key="frame" x="0.0" y="786" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SeK-kW-Fdp" id="ErP-4c-Gu1">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CWX-VY-gZL">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3v-NU-wSZ">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="挫敗" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="bfQ-du-NUp" kind="push" id="bDI-d6-9LX"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ycz-5E-mKL">
+                                                    <rect key="frame" x="254" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="祈禱" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="QgH-Z2-U81" kind="push" id="Not-TT-Xeb"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="7sF-37-ceO">
+                                        <rect key="frame" x="0.0" y="917" width="414" height="131"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7sF-37-ceO" id="vu9-yh-Yjl">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="130.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3M-rR-Kjb">
+                                                    <rect key="frame" x="206" y="0.0" width="2" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TU-L5-31W">
+                                                    <rect key="frame" x="42" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <state key="normal" title="苦難" backgroundImage="Category1"/>
+                                                    <connections>
+                                                        <segue destination="yFF-7D-G5h" kind="push" id="jxq-kg-GPF"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="kC8-uU-PcA" id="slH-0Q-KkC"/>
+                            <outlet property="delegate" destination="kC8-uU-PcA" id="PnH-SF-phT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="經典收錄" id="mLC-qu-dXU"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3S-Db-PUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2036" y="4173"/>
+        </scene>
+        <!--勸勉-->
+        <scene sceneID="e46-K2-wvR">
+            <objects>
+                <viewController id="6vc-D0-iK8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rk9-JM-v7l"/>
+                        <viewControllerLayoutGuide type="bottom" id="INl-RJ-8fc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WEX-de-muc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eNL-cY-Zfy">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">利未記 19:32
+
+在白髮的人面前，你要站起來，也要尊敬老人，又要敬畏你的神。我是耶和華。
+------------------------------------
+申命記 31:6
+
+你們當剛強壯膽，不要害怕，也不要畏懼他們，因為耶和華你的神和你同去。他必不撇下你，也不丟棄你。 
+------------------------------------
+尼希米記 8:10b
+
+你們不要憂愁，因靠耶和華而得的喜樂是你們的力量。
+------------------------------------
+箴言 3:5-6
+
+你要專心仰賴耶和華，不可倚靠自己的聰明。
+在你一切所行的事上，都要認定他，他必指引你的路。
+------------------------------------
+傳道書 7:8
+
+事情的終局，強如事情的起頭。
+存心忍耐的，勝過居心驕傲的。
+------------------------------------
+傳道書 9:10
+
+凡你手所當作的事，要盡力去作。
+因為在你所必去的陰間，沒有工作，沒有謀算，
+沒有知識，也沒有智慧。
+------------------------------------
+傳道書 12:1
+
+你趁著年幼，衰敗的日子尚未來到，就是你所說，
+我毫無喜樂的那些年日未曾臨近之先，當記念造你的主。
+------------------------------------
+何西阿書 10:12
+
+你們要為自己栽種公義，就能收割慈愛。
+現今正是尋求耶和華的時候，你們要開墾荒地，等他臨到。
+------------------------------------
+彌迦書 6:8
+
+世人哪，耶和華已指示你何為善。他向你所要的是什麼呢。
+只要你行公義，好憐憫，存謙卑的心，與你的神同行。
+------------------------------------
+哥林多前書 4:7
+
+使你與人不同的是誰呢。你有什麼不是領受的呢。
+若是領受的，為何自夸，彷佛不是領受的呢。
+------------------------------------
+哥林多前書 15:58
+
+所以我親愛的弟兄們，你們務要堅固不可搖動，
+常常竭力多作主工，因為知道你們的勞苦，在主裡面不是徒然的。
+------------------------------------
+約翰福音 14:21
+
+有了我的命令又遵守的，這人就是愛我的。
+愛我的必蒙我父愛他，我也要愛他，並且要向他顯現。
+------------------------------------
+以弗所書 6:13
+
+所以要拿起神所賜的全副軍裝，好在磨難的日子，
+抵擋仇敵，並且成就了一切，還能站立得住。
+------------------------------------
+歌羅西書 2:6
+
+你們既然接受了主基督耶穌，就當遵他而行。
+------------------------------------
+歌羅西書 3:2
+
+你們要思念上面的事，不要思念地上的事。
+------------------------------------
+歌羅西書 3:17
+
+無論作什麼，或說話，或行事，都要奉主耶穌的名，藉著他感謝父神。
+------------------------------------
+帖撒羅尼迦前書 5:12
+
+弟兄們，我們勸你們敬重那在你們中間勞苦的人，
+就是在主裡面治理你們，勸戒你們的。
+------------------------------------
+提摩太前書 6:11
+
+但你這屬神的人，要逃避這些事，追求公義，敬虔，信心，愛心，忍耐，溫柔。
+------------------------------------
+提摩太後書 2:11-12&gt;
+
+有可信的話說，我們若與基督同死，也必與他同活。
+我們若能忍耐，也必和他一同作王。我們若不認他，他也必不認我們。
+------------------------------------
+提摩太後書 2:24
+
+然而主的僕人不可爭競，只要溫溫和和的待眾人，善于教導，存心忍耐。
+------------------------------------
+提多書 2:11-12
+
+因為神救眾人的恩典，已經顯明出來。 
+教訓我們除去不敬虔的心，和世俗的情欲，在今世自守，公義，敬虔度日。
+------------------------------------
+彼得前書 5:7
+
+你們要將一切的憂慮卸給神，因為他顧念你們。 </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="勸勉" id="Sg5-jR-7fw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8nh-3J-Dja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3017" y="879"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="MqY-e0-MQU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hc9-yv-caN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="TxG-Vu-DMf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="FMt-3Z-Ydz" kind="relationship" relationship="viewControllers" id="7hm-Fx-H4X"/>
+                        <segue destination="Mv7-s6-I37" kind="relationship" relationship="viewControllers" id="lG4-4c-59k"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTX-p6-HFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="134.5108695652174"/>
+        </scene>
+        <!--聖經故事-->
+        <scene sceneID="SdQ-d0-hyx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FMt-3Z-Ydz" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="聖經故事" image="Holy Bible-50" id="0Us-bq-jzO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FNN-lD-tql">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Zg8-XH-hzC" kind="relationship" relationship="rootViewController" id="LFS-Yo-llj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o9S-xC-1Us" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="134.5108695652174"/>
+        </scene>
+        <!--經典收錄-->
+        <scene sceneID="Xd3-We-XJ0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mv7-s6-I37" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="經典收錄" image="Pray-50" id="yNm-EN-vTh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xME-kZ-tIM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kC8-uU-PcA" kind="relationship" relationship="rootViewController" id="LhR-Fr-9u8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="trG-V9-AbH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044.9275362318842" y="848.64130434782612"/>
+        </scene>
+        <!--虛假-->
+        <scene sceneID="Zx3-lC-oja">
+            <objects>
+                <viewController id="p6a-4j-EZj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="221-AC-ySv"/>
+                        <viewControllerLayoutGuide type="bottom" id="4jc-2s-gSl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nz2-TO-Y6G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="13C-y9-EaM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">馬太福音23:27-28
+
+你們這假冒為善的文士和法利賽人有禍了。
+因為你們好像粉飾的墳墓，外面好看，裡面卻裝滿了死人的骨頭，和一切的污穢。
+你們也是如此，在人前、外面顯出公義來，裡面卻裝滿了假善和不法的事。
+------------------------------------
+馬太福音6:1
+
+你們要小心，不可將善事行在人的面前，故意叫他們看見。
+若是這樣，就不能得你們天父的賞賜了。
+------------------------------------
+傳道書12:14
+
+因為人所作的事，連一切隱藏的事，無論是善是惡，神都必審問。
+------------------------------------
+彼得前書1:22 
+
+你們既因順從真理、潔淨了自己的心、以致愛弟兄沒有虛假、
+就當從心裡彼此切實相愛。
+------------------------------------
+提摩太後書3:5
+
+有敬虔的外貌、卻背了敬虔的實意．這等人你要躲開。
+------------------------------------
+羅馬書12:9
+
+愛人不可虛假，惡要厭惡，善要親近。
+------------------------------------
+加拉太書1:10 
+
+我現在是要得人的心呢? 還是要得神的心呢? 我豈是討人的喜歡麼?
+ 若仍舊討人的喜歡，我就不是基督的僕人了。
+------------------------------------
+哥羅西書 3:23-24
+
+無論做什麼，都要從心裡做，像是給主做的，不是給人做的，
+因你們知道從主那裏必得充基業為賞賜；你們所事奉的乃是主基督。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="虛假" id="s9f-43-efx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xmz-ym-fPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3684" y="879"/>
+        </scene>
+        <!--高傲-->
+        <scene sceneID="jFe-xF-31x">
+            <objects>
+                <viewController id="rdA-8J-kF5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LD6-9z-fcg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ky6-Nl-hra"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cfw-tx-4vP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aGV-Uq-f58">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">箴言13:10
+
+驕傲只啟爭競．聽勸言的、卻有智慧。 
+------------------------------------
+加拉太書6:26
+
+不要貪圖虛名、彼此惹氣、互相嫉妒。
+------------------------------------
+箴言16:5
+
+凡心裡驕傲的、為耶和華所憎惡．雖然連手、他必不免受罰。 
+------------------------------------
+箴言 3:5-6 
+
+你要專心仰賴耶和華，不可倚靠自己的聰明，
+在你一切所行的事上都要認定他，他必指引你的路。
+------------------------------------
+箴言11:2 
+
+驕傲來、羞恥也來．謙遜人卻有智慧。
+------------------------------------
+箴言21:30
+
+沒有人能以智慧、聰明、謀略、敵擋耶和華。 
+------------------------------------
+哥林多後書10:17-18
+
+但誇口的，當指著主誇口。因為蒙悅納的，不是自己稱許的，乃是主所稱許的。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="高傲" id="CVY-uW-IFy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0OT-Pa-5UV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="1582"/>
+        </scene>
+        <!--神的愛-->
+        <scene sceneID="ggZ-rX-Lwx">
+            <objects>
+                <viewController id="jND-r2-aQZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X9M-RL-rKc"/>
+                        <viewControllerLayoutGuide type="bottom" id="1eB-Wb-DzC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rCv-h3-ub8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="azj-wJ-isK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">雅歌 1:3-4a
+
+你的膏油馨香。你的名如同倒出來的香膏，所以眾童女都愛你。
+願你吸引我，我們就快跑跟隨你。
+------------------------------------
+以賽亞書 46:4
+
+直到你們年老，我仍這樣；直到你們髮白，我仍懷搋。
+我已造作，也必保抱；我必懷抱，也必拯救。
+------------------------------------
+以賽亞書 54:10
+
+大山可以挪開，小山可以遷移。
+但我的慈愛必不離開你，我平安的約也不遷移。
+這是憐恤你的耶和華說的。
+------------------------------------
+西番雅書 3:17
+
+耶和華你的神，是施行拯救，大有能力的主，
+他在你中間必因你歡欣喜樂，默然愛你，且因你喜樂而歡呼。
+------------------------------------
+約翰福音 3:16
+
+神愛世人，甚至將他的獨生子賜給他們，叫一切信他的，不至滅亡，反得永生。
+------------------------------------
+哥林多前書 13:8
+
+愛是永不止息。先知講道之能，終必歸於無有。
+說方言之能，終必停止，知識也終必歸於無有。
+------------------------------------
+哥林多後書 5:14
+
+原來基督的愛激勵我們。因我們想一人既替眾人死，眾人就都死了。
+------------------------------------
+約翰壹書 4:10
+
+不是我們愛神，乃是神愛我們，差他的兒子，為我們的罪作了挽回祭，這就是愛了
+。 </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="神的愛" id="pc2-xU-PNj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7dx-kc-Gwi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="1582"/>
+        </scene>
+        <!--宣告-->
+        <scene sceneID="Wez-e8-UmZ">
+            <objects>
+                <viewController id="RGf-p3-IZA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FSv-D2-4V9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dlf-l7-6Jk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GuL-Pb-5Fh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="inr-Iw-gEv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">創世記 22:14
+
+亞伯拉罕給那地方起名叫耶和華以勒（就是耶和華必預備），
+直到今日人還說，在耶和華的山上必有預備。
+------------------------------------
+申命記 33:27
+
+永生的神是你的居所。他永久的膀臂在你以下。他在你前面攆出仇敵。
+------------------------------------
+約書亞記 24:15
+至於我和我家，我們必定事奉耶和華。
+------------------------------------
+撒母耳記上 7:12
+
+給石頭起名叫以便以謝，說，到如今耶和華都幫助我們。
+------------------------------------
+撒母耳記上 15:22
+
+耶和華喜悅燔祭和平安祭，豈如喜悅人聽從他的話呢。
+聽命勝於獻祭。順從勝於公羊的脂油。
+------------------------------------
+歷代志下 7:14
+
+這稱為我名下的子民，若是自卑，禱告，尋求我的面，
+轉離他們的惡行，我必從天上垂聽，赦免他們的罪，醫治他們的地。
+------------------------------------
+以斯拉記 8:22b
+
+我們神施恩的手必幫助一切尋求他的。
+但他的能力和忿怒，必攻擊一切離棄他的。
+------------------------------------
+詩篇 9:7-8
+
+惟耶和華坐著為王，直到永遠。他已經為審判設擺他的寶座。
+他要按公義審判世界，按正直判斷萬民。
+------------------------------------
+詩篇 24:3-4
+
+誰能登耶和華的山。誰能站在他的聖所。
+就是手潔心清，不向虛妄，起誓不懷詭詐的人。
+------------------------------------
+詩篇 81:10
+
+我是耶和華你的神，曾把你從埃及地領上來。
+你要大大張口，我就給你充滿。
+------------------------------------
+詩篇 84:11
+
+因為耶和華神是日頭，是盾牌，要賜下恩惠和榮耀。
+他未嘗留下一樣好處，不給那些行動正直的人。
+------------------------------------
+詩篇 111:10
+
+敬畏耶和華是智慧得開端。凡遵行。他命令的，便是聰明人。
+耶和華是永遠當贊美的。
+------------------------------------
+箴言 4:18
+
+但義人的路，好像黎明的光，越照越明，直到日午。
+------------------------------------
+耶利米書 32:27
+
+我是耶和華，是凡有血氣者的神，豈有我難成的事麼。
+------------------------------------
+阿摩司書 4:13
+
+那創山，造風，將心意指示人，使晨光變為幽暗，腳踏在地之高處的。
+他的名是耶和華萬軍之神。
+------------------------------------
+馬可福音 3:35
+
+凡遵行神旨意的人，就是我的弟兄姐妹和母親了。
+------------------------------------
+馬可福音 10:45
+
+因為人子來，並不是要受人的服事，乃是要服事人，並且要舍命，作多人的贖價。
+------------------------------------
+路加福音 15:10
+
+我告訴你們，一個罪人悔改，在神的使者面前，也是這樣為他歡喜。
+------------------------------------
+約翰福音 6:35
+
+耶穌說，我就是生命的糧。到我這裏來的，必定不餓。信我的，永遠不渴。
+------------------------------------
+約翰福音 6:37
+
+凡父所賜給我的人，必到我這裏來。到我這裏來的，我總不丟棄他。
+------------------------------------
+約翰福音 8:12
+
+耶穌又對眾人說，我是世上的光。跟從我的，就不在黑暗里走，必要得著生命的光。
+------------------------------------
+約翰福音 11:25
+
+耶穌對他說，復活在我，生命也在我。信我的人，雖然死了，也必復活。
+------------------------------------
+約翰福音 14:6
+
+耶穌說，我就是道路，真理，生命。若不藉著我。沒有人能到父那裏去。
+------------------------------------
+約翰福音 15:5
+
+我是葡萄樹，你們是枝子。常在我裏面的，我也常在他裏面，這人就多結果子。
+因為離了我，你們就不能作什麼。
+------------------------------------
+哥林多後書 4:7
+
+我們有這寶貝放在瓦器裏，要顯明這莫大的力，是出於神，不是出於我們。
+------------------------------------
+加拉太書 2:20a
+
+我已經與基督同釘十字架。現在活著的，不再是我，乃是基督在我裏面活著。
+------------------------------------
+提摩太前書 2:5-6
+
+因為只有一位神，在神和人中間，只有一位中保，乃是降世為人的基督耶穌。
+他舍自己作萬人的贖價。到了時候，這事必證明出來。
+------------------------------------
+希伯來書 6:10
+
+因為神並非不公義，竟忘記你們所作的工，
+和你們為他名所顯的愛心，就是先前伺候聖徒，如今還是伺候。
+------------------------------------
+希伯來書 13:8
+
+耶穌基督，昨日今日一直到永遠是一樣的。 </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="宣告" id="tXY-of-8ea"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Neg-Vi-gxp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="2277"/>
+        </scene>
+        <!--妒忌-->
+        <scene sceneID="Ifh-Yp-tif">
+            <objects>
+                <viewController id="yjL-1Z-mKE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hGY-HS-f2I"/>
+                        <viewControllerLayoutGuide type="bottom" id="zJG-XA-DI5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TKs-je-IBn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U3e-p7-4sF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">雅各書4:5-7 
+
+你們想經上所說是徒然的麼? 神所賜住在我們.裡面的靈，
+是戀愛至於嫉妒麼?但他賜更多的恩典，
+所以經上說：『神阻擋驕傲的人，賜恩給謙卑的人。』
+故此你們要順服神，務要抵擋魔鬼，魔鬼就必離開你們逃跑了。
+------------------------------------
+雅各書3:16
+
+在何處有嫉妒分爭、就在何處有擾亂、和各樣的壞事。
+------------------------------------
+詩篇 37:1-5 
+
+不要為作惡的心懷不平，也不要向那行不義的，生出嫉妒。
+因為他們如草快被割下，又如青菜快要枯乾。
+你當倚靠耶和華而行善，住在地上；以祂的信實為糧。
+又要以耶和華為樂，祂就將你心裡所求的賜給你。
+當將你的事交託耶和華，並倚靠祂；它就必成全。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="妒忌" id="KFa-os-WIa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ix2-gL-gdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="2277"/>
+        </scene>
+        <!--懶惰-->
+        <scene sceneID="Jzo-Rv-K0h">
+            <objects>
+                <viewController id="yxV-P9-ixP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q7E-Hm-vWM"/>
+                        <viewControllerLayoutGuide type="bottom" id="kXo-M5-kOz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dao-bi-jCj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i1k-lW-nYC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">希伯來書 10:24-25
+
+又要彼此相顧，激發愛心，勉勵行善。你們不可停止聚會，
+好像那些停止慣了的人，倒要彼此勸勉，既看見那日子臨近，就更當如此。
+------------------------------------
+以弗所書 5:15-18
+
+你們要謹慎行事、不要像愚昧人、當像智慧人．要愛惜光陰、
+因為現今的世代邪惡。不要作糊塗人、要明白主的旨意如何。
+不要醉酒、酒能使人放蕩、乃要被聖靈充滿。 
+------------------------------------
+哥林多前書 15:58
+
+所以，我親愛的弟兄們，你們務要堅固，不可搖動，常常竭力多做主工；
+因為知道，你們的勞苦在主裡面不是徒然的。 </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="懶惰" id="LT7-oe-ZG5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQw-g2-ntj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="2963"/>
+        </scene>
+        <!--憎恨-->
+        <scene sceneID="3P4-77-mW3">
+            <objects>
+                <viewController id="WeI-8b-1zb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Tu-nu-Kb8"/>
+                        <viewControllerLayoutGuide type="bottom" id="oal-iz-bVX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dpS-4X-ZZt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bhW-YV-dnr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">以弗所書 4:26-27
+
+生氣卻不要犯罪；不可含怒到日落，也不可給魔鬼留地步。
+------------------------------------
+馬太福音24:12-13 
+
+只因不法的事增多，許多人的愛心，纔漸漸冷淡了。惟有忍耐到底的，必然得救。 
+------------------------------------
+箴言29:11
+
+愚妄人怒氣全發．智慧人忍氣含怒。
+------------------------------------
+箴言19:11
+
+人有見識，就不輕易發怒；寬恕人的過失，便是自己的榮耀。
+------------------------------------
+哥林多前書11:27-29 
+
+所以無論何人，不按理喫主的餅、喝主的杯，就是干犯主的身主的血了。
+人應當自己省察，然後喫這餅、喝這杯。
+因為人喫喝，若不分辨是主的身體，就是喫喝自己的罪了。 
+------------------------------------
+箴言3:30 
+
+人未曾加害與你、不可無故與他相爭。
+------------------------------------
+箴言24:17-18 
+
+你仇敵跌倒、你不要歡喜。他傾倒、你心不要快樂。
+恐怕耶和華看見就不喜悅、將怒氣從仇敵身上轉過來。
+------------------------------------
+希伯來書13:14-15 
+
+你們要追求與眾人和睦、並要追求聖潔。非聖潔沒有人能見主。
+又要謹慎、恐怕有人失了神的恩。
+恐怕有毒根生出來擾亂你們、因此叫眾人沾染污穢。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="憎恨" id="lhu-X7-gp9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wOb-qf-X9Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="2963"/>
+        </scene>
+        <!--愛慾-->
+        <scene sceneID="uyT-EI-Eru">
+            <objects>
+                <viewController id="dYi-AM-AEC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nbe-YW-7Of"/>
+                        <viewControllerLayoutGuide type="bottom" id="gGU-lP-wNo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QWt-aa-69a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dnQ-JB-GbL">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">箴言5:23
+
+你要保守你心，勝過保守一切；因為一生的果效，是由心發出。
+------------------------------------
+箴言6:23-26 
+
+因為誡命是燈，法則是光，訓誨的責備是生命的道。
+能保你遠離惡婦，遠離外女諂媚的舌頭。
+你心中不要戀慕他的美色，也不要被他眼皮勾引。
+因為妓女能使人只剩一塊餅，淫婦獵取人寶貴的生命。
+------------------------------------
+加拉太書5:19-21 
+
+情慾的事、都是顯而易見的．就如姦淫、污穢、邪蕩、拜偶像、邪術、
+仇恨、爭競、忌恨、惱怒、結黨、紛爭、異端、嫉妒、〔有古卷在此有兇殺二字〕
+醉酒、荒宴等類、我從前告訴你們、現在又告訴你們、
+行這樣事的人、必不能承受神的國。
+------------------------------------
+希伯來書13:25 
+
+你們總要謹慎、不可棄絕那向你們說話的。
+因為那些棄絕在地上警戒他們的、尚且不能逃罪、
+何況我們違背那從天上警戒我們的呢。
+------------------------------------
+提摩太後書2:21 
+
+人若自潔，脫離卑賤的事，就必作貴重的器皿，成為聖潔，
+合乎主用，預備行各樣的善事。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="愛慾" id="TGH-xe-ICU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRX-ea-7Ag" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="3638"/>
+        </scene>
+        <!--自卑-->
+        <scene sceneID="yZG-nQ-GPt">
+            <objects>
+                <viewController id="b92-sd-IAf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zjs-c1-Gnz"/>
+                        <viewControllerLayoutGuide type="bottom" id="fFv-oG-6g4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pyk-g4-Umf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hvr-Zm-e8n">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">約翰福音 15:16
+
+不是你們揀選了我，是我揀選了你們，並且分派你們去結果子，
+叫你們的果子常存，使你們奉我的名，無論向父求什麼，他就賜給你們。 
+------------------------------------
+哥林多前書1:27-29
+
+神卻揀選了世上愚拙的，叫有智慧的羞愧。
+又揀選了世上軟弱的，叫那強壯的羞愧。
+神也揀選了世上卑賤的、被人厭惡的、以及那無有的，為要廢掉那有的。
+使一切有血氣的，在神面前一個也不能自誇。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="自卑" id="zIr-M1-hO0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Sd-DO-mlo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="3638"/>
+        </scene>
+        <!--懼怕-->
+        <scene sceneID="SPp-za-Yby">
+            <objects>
+                <viewController id="l7i-1C-jLo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="15C-Vk-LZT"/>
+                        <viewControllerLayoutGuide type="bottom" id="dlT-Fy-LO3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t1u-Bw-HyH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gsl-Hi-7rz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">提摩太後書1:7
+
+因為神賜給我們，不是膽怯的心，乃是剛強、仁愛、謹守的心。 
+------------------------------------
+箴言2:7
+
+他給正直人存留真智慧、給行為純正的人作盾牌． 
+------------------------------------
+以賽亞書41:10
+
+你不要害怕, 因為我與你同在。不要驚惶，因為我是你的神。
+我必堅固你, 我必幫助你, 我必用我公義的右手扶持你。 
+------------------------------------
+以弗所書 4:15-16
+
+惟用愛心說誠實話，凡事長進，連於元首基督，全身都靠他聯絡得合式，
+百節各按各職，照著各體的功用彼此相助，
+便叫身體漸漸增長，在愛中建立自己。 
+------------------------------------
+詩27 : 1,7
+
+... ... 我還怕誰呢？... ... 耶和華啊，我用聲音呼籲的時候，求你垂聽。 
+------------------------------------
+可5:36
+
+不要怕，只要信！
+------------------------------------
+賽12:2 
+
+看哪，神是我們的拯救，我要倚靠他，並不懼怕。
+------------------------------------
+書1:9
+
+我豈沒有吩咐你嗎？你當剛強壯膽！不要懼怕，也不要驚徨，
+因為你無論往哪裡去，耶和華你的神必與你同在。
+------------------------------------
+詩56:3-4 
+
+我懼怕的時候要倚靠你。我倚靠神，我要讚美他的話；
+我倚靠神，必不懼怕。血氣之輩能把我怎麼樣呢？
+------------------------------------
+來13:6
+
+所以我們可以放膽說， "主是幫助我的，我必不懼怕，人能把我怎麼樣呢？"
+------------------------------------
+詩27:1
+
+耶和華是我的亮光，是我的拯救，我還怕誰呢？
+耶和華是我性命的保障，我還懼怕誰呢?
+------------------------------------
+箴3:24-26 
+
+你躺下，必不懼怕；你躺臥，睡得香甜。
+忽然來的驚恐，不要害怕，惡人遭毀滅，也不要恐懼，
+因為耶和華是你所倚靠的，他必保守你的腳不陷入網羅。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="懼怕" id="uhz-Rz-sWJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wxm-nl-mbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="4305"/>
+        </scene>
+        <!--憂慮-->
+        <scene sceneID="Wr9-cx-BGb">
+            <objects>
+                <viewController id="3W2-Bn-53U" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fUN-g2-3MY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bsl-Ob-ilM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wM0-QS-RIj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s8m-h9-Cer">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">馬太福音18:19
+
+我又告訴你們：若是你們中間有兩個人在地上，
+同心合意的求甚麼事，我在上的父，必為他們成全。 
+------------------------------------
+創世記 28:15
+
+我也與你同在、你無論往那裡去、我必保佑你、領你歸回這地、
+總不離棄你、直到我成全了向你所應許的。
+------------------------------------
+彼得後書 3:9
+
+主所應許的尚未成就，有人以為他是耽延，其實不是耽延，
+乃是寬容你們，不願有一人沉淪，乃願人人都悔改。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="憂慮" id="HQh-LC-oxN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CPD-hs-xM4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="4304"/>
+        </scene>
+        <!--挫敗-->
+        <scene sceneID="SPB-EZ-oRi">
+            <objects>
+                <viewController id="bfQ-du-NUp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FjJ-v4-ODe"/>
+                        <viewControllerLayoutGuide type="bottom" id="rHP-sQ-SUH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y7P-fC-3gj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ldn-Lp-7JM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">哥林多前書10:13 
+
+你們所遇見的試探，無非是人所能受的。
+神是信實的，必不叫你們受試探過於所能受的。
+在受試探的時候，總要給你們開一條出路，叫你們能忍受得住。
+------------------------------------
+馬太福音11:28
+
+凡勞苦擔重擔的人、可以到我這裡來、我就使你們得安息。
+------------------------------------
+雅各書5:16
+
+所以你們要彼此認罪、互相代求、使你們可以得醫治。
+義人祈禱所發的力量、是大有功效的。
+------------------------------------ 
+馬太福音 7:13-14
+
+你們要進窄門。因為引到滅亡，那門是寬的，路是大的，進去的人也多；
+引到永生，那門是窄的，路是小的，找著的人也少。
+------------------------------------
+雅各書1:12
+
+忍受試探的人是有福的，因為他經過試驗以後，
+必得生命的冠冕，這是主應許給那些愛他之人的。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="挫敗" id="nto-uf-Rqd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdj-Dl-ced" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="4983"/>
+        </scene>
+        <!--祈禱-->
+        <scene sceneID="2QL-gr-A2d">
+            <objects>
+                <viewController id="QgH-Z2-U81" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1jr-3c-9rS"/>
+                        <viewControllerLayoutGuide type="bottom" id="X5x-VC-UAB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fP6-pS-Uy7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2xY-lJ-y0L">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">太16:27
+
+要常常喜樂，不住的禱告。
+------------------------------------
+路18:1
+
+耶穌設一個比喻，是要人常常禱告，不可灰心。 
+------------------------------------
+可11:24 
+
+凡你們禱告祈求的，無論是甚麼，只要信是得著的，就必得著。 
+------------------------------------
+詩34:15 
+
+耶和華的眼目，看顧義人；祂的耳朵，聽他們的呼求。 
+------------------------------------
+尼2 : 4,8 
+
+我默禱天上的神... 王就允准我。 
+------------------------------------
+但6:10 
+
+雙膝跪在他神面前，禱告感謝，與素常一樣。 
+------------------------------------
+路11:1 
+
+求主教導我們禱告。
+------------------------------------
+弗 6:18 
+
+靠著聖靈，隨時多方禱告祈求，並要在此儆醒不倦，為眾聖徒祈求。 
+------------------------------------
+可14:38 
+
+總要儆醒禱告，免得入了迷惑；你們心靈固然願意，肉體郤軟弱了。 </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="祈禱" id="N8F-Na-6Ll"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yjp-A6-hhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3709" y="4983"/>
+        </scene>
+        <!--苦難-->
+        <scene sceneID="sKS-8P-scB">
+            <objects>
+                <viewController id="yFF-7D-G5h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3lp-i0-MV7"/>
+                        <viewControllerLayoutGuide type="bottom" id="aaP-k7-Lyj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9d4-wQ-uYw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="brM-P3-7gi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">林前10:13
+
+神是信實的，必不叫你們受試探過於所能受的。
+------------------------------------
+伯42:3
+
+我所說的是我不明白的；這些事太奇妙，是我不知道的。
+------------------------------------
+林後12:9 
+
+我的恩典夠你用的，因為我的能力，是在人的軟弱上顯得完全。
+------------------------------------
+啟7:17
+
+神也必擦去他們一切的眼淚。
+------------------------------------
+太14:14
+
+耶穌... 就憐憫他們，治好了他們的病人。
+------------------------------------
+詩11:5
+
+耶和華試驗義人。
+------------------------------------
+伯2:10 
+
+難道我們從神手裏得福，不也受禍麼。
+------------------------------------
+林後4 : 8,9 
+
+我們四面受敵，郤不被困住......打倒了，郤不至死亡。
+------------------------------------
+詩143:8
+
+求你使我清晨得聽你慈愛之言，因我倚靠你。
+------------------------------------
+太11:28
+
+凡勞苦擔重擔的人，可以到我這裏來，我就使你們得安息。
+------------------------------------
+詩46:1 
+
+神是我們的避難所，是我們的力量，是我們在患難中隨時的幫助。
+------------------------------------
+約16:33 
+
+我將這些事告訴你們，是要叫你們在我裏面有平安。
+在世上你們有苦難；但你們可以放心，我已經勝了世界。
+------------------------------------
+詩34:9
+
+義人多有苦難，但耶和華救他脫離這一切。
+------------------------------------
+羅8:18
+
+我想現在的苦楚，若比起將來要顯於我們的榮耀，就不足介意了。
+------------------------------------
+雅1:2-4
+
+我的弟兄們，你們落在百般試煉中，都要以為大喜樂；
+因為知道你們的信心經過試驗，就生忍耐。
+但忍耐也當成功，使你們成全完備，亳無缺欠。
+------------------------------------
+林10:13
+
+你們所遇見的試探，無非是人所能受的。
+神是信實的，必不叫你們受試探過於所能受的。
+在試探的時候，總要給你們開一條出路，叫你們能忍受得住。
+------------------------------------
+詩119:71
+
+我受苦是與我有益，為要使我學習你的律例。
+------------------------------------
+詩32:7
+
+你是我藏身之處；你必保佑我脫離苦難，以得救的樂歌四面環繞我。
+------------------------------------
+太5:10
+
+為義受逼迫的人有福了，因為天國是他們的。
+人若因我辱你們，逼迫你們，造各樣壞話毀謗你們，你們就有福了。
+------------------------------------
+詩17:7
+
+求你顯出你奇妙的慈愛來，你是那右手拯救投靠你的，脫離起來攻擊他們的人。
+------------------------------------
+詩18:18
+
+我遭遇災難的日子，他們來攻擊我，但耶和華是我的倚靠。
+------------------------------------
+詩20:9
+
+求耶和華施行拯救，我們呼求的時候，願王應允我們。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="苦難" id="B3T-0X-hIl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXn-PJ-ukB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3016" y="5651"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="wDL-Z3-S5B">
+            <objects>
+                <viewController restorationIdentifier="SevenVC" storyboardIdentifier="SevenVC" id="3m8-nM-eav" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qo7-Ea-e4N"/>
+                        <viewControllerLayoutGuide type="bottom" id="iVz-pS-lqN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bSJ-st-WOj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I2W-QD-UeO">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">地上的人逐漸增加，大部分人都像該隱一樣做壞事。但有一個人卻跟別人不同。他的名字叫做以諾。以諾是個勇敢的人。雖然他四周的人都壞透了，他卻繼續事奉上帝。
+
+你知道為甚麼當時的人做這麼多壞事嗎？請想想，是誰使亞當和夏娃不聽上帝的話，吃上帝禁止他們吃的果子呢？不錯，是一個很壞的天使。聖經把他稱為撒但。他盡力使所有人變壞。
+
+搶劫和殺人
+有一天，耶和華上帝吩咐以諾告訴人一件事，是他們不願聽的。這件事就是：“終有一天，上帝要消滅所有惡人。”當時的人聽到這件事，很可能非常憤怒，甚至想殺死以諾。所以，以諾一定要很勇敢，才能告訴人上帝打算做的事。
+
+上帝沒有讓以諾在惡人當中活很久。以諾只活到365歲。為甚麼我們說“只活到365歲”呢？因為當時的人比現在的人強壯得多，也長壽得多。事實上，以諾的兒子瑪土撒拉活到969歲呢！
+
+人們做各種壞事
+以諾死後，地上的人變得愈來愈壞。聖經說：“他們終日所思想的盡都是惡，……地上滿了強暴。”
+
+你知道為甚麼當時地上有這麼多麻煩嗎？原因之一是，撒但有一個新方法使人做壞事。接着我們就會知道這方法是甚麼了。
+
+創世記5:21-24,27；6:5；希伯來書11:5；猶大書14,15。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第7課: 一個勇敢的人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YE2-6O-21f">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z0i-Oy-mXn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4968" y="-570"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gjt-1j-iV9">
+            <objects>
+                <viewController restorationIdentifier="FiveVC" storyboardIdentifier="FiveVC" id="pFU-Nh-r1Z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B17-s2-pxO"/>
+                        <viewControllerLayoutGuide type="bottom" id="rIE-kK-CMO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="luI-wR-B4o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V7m-qr-JfW">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">在伊甸園外面，亞當和夏娃遇到許多煩惱。他們要辛苦工作才能得到食物。他們見到的不再是美麗的果樹，而是長滿遍地的荊棘和蒺藜。亞當和夏娃不聽上帝的話，不再跟上帝做朋友，結果遭遇這些困難。
+
+亞當跟兒子一同辛勞工作
+但更糟的是，亞當和夏娃開始逐漸衰老，最後不免一死。記得上帝曾警告他們，如果吃那棵樹上的果子，就必定死。從他們吃的日子起，他們就逐漸走向死亡。他們不聽上帝的話，是多麼愚蠢！
+
+亞當和夏娃的兒女，都是在上帝把人逐出伊甸園之後才出生的。所以，亞當夏娃的兒女也會衰老死亡。
+
+要是亞當夏娃服從耶和華，他們和兒女會過着多麼幸福的生活。他們本可以一起永遠快樂地生活在地上。沒有人會衰老、生病，也不會有人死亡。
+
+上帝要人永遠快樂地生活，並且應許將來人必定會這樣。那時，不但整個地球會變得非常美麗，所有人都會十分健康。地上每個人都會成為其他人的好朋友，也會成為上帝的好朋友。
+
+夏娃和她的兒女
+但夏娃已不再是上帝的朋友了。所以她生兒女，不會是一件容易的事。她經歷很大的痛苦。她不聽耶和華的話，的確為她帶來了許多憂傷煩惱，你豈不同意嗎？
+
+亞當夏娃有很多兒女。他們的第一個兒子誕生之後，他們給他起名叫該隱。第二個兒子叫亞伯。有甚麼事發生在這兩個兒子身上？你知道嗎？
+
+創世記3:16-23；4:1,2；啟示錄21:3,4。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第5課: 艱苦的生活開始了" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dh9-bK-l6C">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vs2-Jz-KWa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3442" y="-570"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6u1-Oo-zAJ">
+            <objects>
+                <viewController restorationIdentifier="FourVC" storyboardIdentifier="FourVC" id="lKP-6W-YKt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WE6-su-9dL"/>
+                        <viewControllerLayoutGuide type="bottom" id="IP1-7d-lhN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OF8-pz-mOC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8h6-M4-aX5">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">看看現在發生了甚麼事。亞當和夏娃被逐出美麗的伊甸園。你知道為甚麼嗎？
+
+亞當和夏娃被逐出伊甸園
+因為他們做的事壞透了，所以耶和華要懲罰他們。你知道亞當和夏娃做了甚麼壞事嗎？
+
+他們做了些上帝吩咐他們不可以做的事。上帝吩咐他們可以吃園中樹上的果子。但上帝說，有一棵樹的果子他們不可吃，吃了就會死。上帝把這棵樹留給自己。我們知道，擅自拿去別人的東西是不對的，豈不是嗎？那麼，究竟發生了甚麼事呢？
+
+有一天，夏娃獨自在園子裏，有一條蛇竟然對她說話。這實在令人難以置信！上帝曾禁止人吃某棵樹的果子，蛇卻叫夏娃去吃。耶和華造蛇的時候，蛇是不會說話的。所以，蛇能夠說話的惟一理由是，有另一個生物令蛇說話。這個生物是誰呢？
+
+他並不是亞當，所以一定是另一種生物。在耶和華創造地球之前很久，他已創造了好些生物。這些生物就是我們看不見的天使。有一個天使變得非常驕傲。他想成為像上帝一樣，能夠統治別人。他想人類服從他，而不是服從上帝。他就是使蛇說話的天使。
+
+這個天使有能力騙倒夏娃。他告訴夏娃，她要是吃了這果子，就會變成像上帝一樣。夏娃竟然相信了他的話，於是取了果子來吃。跟着亞當也吃了。由於亞當夏娃不聽上帝的話，他們失去了美麗的家園。
+
+可是，終有一天，上帝會使整個地球變成像伊甸園一樣美麗。我們將來會讀到，你可以怎樣有分參加這個工作。但是現在先讓我們看看亞當夏娃有甚麼遭遇。
+
+創世記2:16,17；3:1-13,24；啟示錄12:9。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第4課: 他們為甚麼失去家園" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUY-Ga-fbg">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kIw-gg-dDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2590" y="-570"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nob-wC-1Uo">
+            <objects>
+                <viewController restorationIdentifier="EightVC" storyboardIdentifier="EightVC" id="w3w-dq-Kfq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7O1-gw-nCT"/>
+                        <viewControllerLayoutGuide type="bottom" id="UJy-AU-E2u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GXL-22-GKl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RMB-ZD-Kpm">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">要是有一個人向你迎面走過來，身材像你家裏的天花板一樣高，你會有甚麼感覺呢？這人一定是個巨人！有一個時候，地上真的曾有過巨人。聖經表明，這些巨人的父親是天上的天使。但這怎麼可能呢？
+
+強暴的巨人
+要記住，邪惡的天使撒但不斷想辦法製造麻煩。他甚至設法使上帝的天使也變壞。後來，有些天使開始聽從撒但。上帝原本派他們在天上工作，但他們卻離開自己的崗位，披上人的身體，下到地上來。你知道他們為甚麼這樣做嗎？
+
+聖經說，因為上帝這些兒子看見地上漂亮的女子，就想跟她們一起生活。於是他們來到地上，娶了這些女子。聖經說這是不對的，因為上帝造天使是要他們在天上生活。
+
+後來，這些天使和他們的妻子生下孩子，他們的嬰兒跟普通的嬰兒不同。起初，他們的樣子也許跟其他嬰孩沒有很大分別。但他們長得愈來愈高大，愈來愈強壯，最後變成了巨人。
+
+這些巨人都是壞人。他們因為比別人強壯高大，就隨意傷害別人，想強迫所有人都跟他們一樣做壞事。
+
+當時以諾已經死了，但地上還有一個好人。他的名字叫挪亞。無論上帝吩咐挪亞做甚麼事，他都會照着去做。
+
+有一天，上帝告訴挪亞，時候已經來到，他要把地上的惡人通通毀滅。可是，上帝要拯救挪亞一家和很多動物。讓我們看看上帝怎樣做。
+
+創世記6:1-8；猶大書6。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第8課: 地上的巨人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZuX-Nm-2Pu">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lt6-MZ-cYl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3593" y="135"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kW7-eW-oiF">
+            <objects>
+                <viewController restorationIdentifier="NineVC" storyboardIdentifier="NineVC" id="yDO-qP-Et5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EF7-lQ-bo6"/>
+                        <viewControllerLayoutGuide type="bottom" id="WYI-cp-5Oc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z1Y-m1-5lt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gqE-fK-QLO">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">挪亞有一個妻子和三個兒子。他三個兒子的名字叫做閃、含和雅弗。每個兒子都娶了妻子。所以挪亞一家共有八個人。
+
+現在，上帝要挪亞做一件很不尋常的事。他吩咐挪亞造一隻巨大的方舟。方舟像船一樣大，但外形卻像一個又大又長的盒子。上帝說：“你要把方舟分成三層，裏面要有很多房間。”有些房間給挪亞、他的家人和動物居住，有些房間用來存放人和動物所需的糧食。
+
+上帝也吩咐挪亞將方舟造成不透水。上帝說：“我要降大雨毀滅整個世界。所有在方舟外面的人都要淹死。”
+
+挪亞和他的兒子聽從耶和華的吩咐，開始建造方舟。但其他人卻嘲笑挪亞一家，並且繼續做壞事。雖然挪亞告訴他們上帝快要毀滅惡人了，他們卻不相信。
+
+挪亞一家把食物和各種動物帶進方舟
+方舟的體積很大，所以要花很長時間才能建成。許多年之後，方舟終於建成了。於是，上帝吩咐挪亞把動物帶進方舟裏。上帝說有些動物要帶兩隻進去，一公一母。至於另一些動物，上帝吩咐挪亞帶七隻進去。上帝也吩咐挪亞帶各種不同的飛鳥進去。挪亞照着上帝的話去做。
+
+最後，挪亞和他的家人也進了方舟。然後，上帝關上方舟的門。在方舟裏，挪亞和他的家人一同等待洪水來臨。試想像一下，你跟他們一起在方舟裏等待。上帝所說的洪水，真的會來到嗎？
+
+創世記6:9-22；7:1-9。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第9課: 挪亞造一隻方舟" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCi-aS-nFl">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zFn-he-t7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4445" y="147"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JYJ-IZ-0Za">
+            <objects>
+                <viewController restorationIdentifier="SixVC" storyboardIdentifier="SixVC" id="CNg-Fz-6Kt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SKB-yr-cSy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fp0-b2-XVf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O1D-G7-MIY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IRY-Bn-hq7">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">現在看看該隱和亞伯。他們都已長大成人。該隱是個農夫，種植穀物、果子和蔬菜。
+
+該隱和亞伯獻祭給上帝
+亞伯是個牧羊人。他喜歡照料小羊。這些小羊長大後，會變成綿羊。所以，亞伯不久就有一大群綿羊要看顧了。
+
+有一天，該隱和亞伯帶着禮物來到上帝面前。該隱所帶的是他種出來的食物，亞伯所帶的是他最好的綿羊。耶和華喜歡亞伯和他的禮物，卻不喜歡該隱和他的禮物。你知道為甚麼嗎？
+
+不僅是因為亞伯的禮物比該隱的好，同時也因為亞伯是個好人。他愛耶和華，也愛他的哥哥。但該隱卻是個壞人，他不愛他的弟弟。
+
+因此，上帝吩咐該隱要改變他的行為。可是該隱卻不聽上帝的話。他見到上帝愛亞伯多過愛他，感覺非常憤怒。於是該隱對亞伯說：“我們到田野去吧。”當時只有他們兩個人在那裏，該隱就動手打弟弟亞伯。他打得很大力，結果把弟弟打死了。該隱所做的事，豈不是壞透了嗎？
+
+該隱殺了亞伯之後就逃到別處去
+亞伯雖然死了，上帝仍然記得他。亞伯是個好人，耶和華永遠不會忘記這樣的人。所以，將來耶和華上帝會把亞伯復活過來。到時亞伯不會再死去，而是會在地上永遠生活。認識像亞伯一樣的人，豈不是很好嗎？
+
+但上帝卻不喜歡像該隱一樣的人。所以，該隱殺死了弟弟之後，上帝就懲罰他，把他趕到別處去，遠離他的家人。該隱離開家人到另一個地方居住的時候，他帶了一個妹妹同去，做他的妻子。
+
+後來該隱和他的妻子開始生兒養女。亞當和夏娃的其他兒女也結了婚，他們也有孩子。不久地上就有很多人了。現在讓我們看看其中幾個人。
+
+創世記4:2-26；約翰一書3:11,12；約翰福音11:25。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第6課: 好兒子和壞兒子" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wFW-jD-kUM">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gZ-PL-TGR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4228.985507246377" y="-570.6521739130435"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Un5-0e-KVc">
+            <objects>
+                <viewController restorationIdentifier="TenVC" storyboardIdentifier="TenVC" id="Sum-mP-Dht" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U9k-qU-v25"/>
+                        <viewControllerLayoutGuide type="bottom" id="xRz-ei-nx1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZEF-rs-bSS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nJV-Iz-Ldm">
+                                <rect key="frame" x="0.0" y="108" width="414" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">在方舟外面，人們像以前一樣忙着過自己的生活。他們不相信洪水真的會來。他們甚至比以前嘲笑得更厲害。可是，他們不久就笑不出來了。
+
+驚惶的人和動物被洪水包圍着
+忽然，天開始下雨。大雨傾盆而下。挪亞果然說對了！可是，人們現在要進入方舟，就已經太遲了。耶和華已經把方舟的大門關上。
+
+不久之後，所有低地都被水淹沒了。水流猛得像大河一樣。大水把樹木推倒，令大石滾動，並且發出巨大的響聲。人人都驚惶失措。他們爬到較高的地方。啊，他們多麼後悔沒有聽從挪亞的話，趁方舟的門沒有關上的時候就進去！可是，現在已經太遲了。
+
+洪水不斷上漲。大雨足足下了四十晝夜。洪水漲到山上的斜坡，不久，連最高的山峰也淹沒了。結果，就像上帝所說一樣，方舟外面所有的人和動物都淹死了。但方舟裏的人和動物卻安然無恙。
+
+挪亞和他的兒子把方舟造得十分堅固。洪水使方舟浮起來，在水面上漂來漂去。有一天，雨停了之後，太陽出來了。眼前的景象多麼奇怪！四周一片汪洋，只見一隻方舟在汪洋上漂浮。
+
+方舟在水面上飄浮
+巨人都不見了。他們再也不能四處害人，因為他們已經死了。他們的母親和所有壞人都死了。但他們的父親又怎樣呢？
+
+巨人的父親其實跟我們不一樣，因為他們並不是人。他們是天使，只不過化作人形來到地上生活。所以，洪水來到的時候，他們沒有像其餘的人一樣被淹死。他們只是撇下化成人形的身體，返回天上去了。可是，他們已不再是上帝的天使家庭的成員了。於是，他們成為撒但手下的天使。聖經把他們稱為邪靈。
+
+現在，上帝刮起一陣大風，使洪水逐漸消退。五個月後，方舟停在一個山頂上。過了許多天，方舟裏的人望出窗外，能夠看見一些山頂了。洪水繼續消退。
+
+於是，挪亞放了一隻渡鴉出方舟外。由於渡鴉找不着棲息的地方，牠在外面飛了一會兒之後，就飛回方舟。渡鴉好幾次飛出方舟後，都飛回方舟棲息。
+
+一隻鴿子
+挪亞想知道洪水是否已經從地上消退，就放一隻鴿子出去。鴿子找不着棲息的地方，最後也飛回來。挪亞第二次把鴿子放出去，牠回來時嘴裏銜着一片橄欖葉。這樣，挪亞知道洪水已經消退了。挪亞第三次把鴿子放出，這次牠終於找到一塊旱地棲息了。
+
+於是上帝對挪亞說：“你要帶你的全家和動物一起出方舟。”他們留在方舟裏已經一年有多。我們可以想像，他們能夠活着走出方舟，感到多麼快樂！
+
+創世記7:10-24；8:1-17；彼得前書3:19,20。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第10課: 洪水" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMo-AJ-9Ld">
+                                <rect key="frame" x="20" y="79" width="374" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="psv-uC-D6l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5232" y="147"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Category1" width="166" height="165"/>
+        <image name="Holy Bible-50" width="25" height="25"/>
+        <image name="Pray-50" width="25" height="25"/>
+    </resources>
 </document>
